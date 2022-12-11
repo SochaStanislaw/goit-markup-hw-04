@@ -126,9 +126,13 @@ span.web-title-style {
 /* section-no-1: main card color */
 .section-no-1 {
     /* outline: orange dashed 5px; */
-    background-color: var(--main-card-background-color);
     text-align: center;
-}
+    background-color: var(--main-card-background-color);
+    background-image: 
+        linear-gradient(rgba(47, 48, 58, 0.4)50%, rgba(47, 48, 58, 0.4)50%), 
+        url(/images/background-section-no-1/bg-image.jpg);
+    }
+
 
 .section-no-1-position {
     padding: 200px 252px 200px 252px;
@@ -204,6 +208,10 @@ button:focus
 }
 
 /* section-no-3: "czym się zajmujemy" */
+/* .section-no-3-style {
+    outline: blue dotted 3px;
+} */
+
 .section-no-3-heading {
     font-weight: 700;
     font-size: 36px;
@@ -289,6 +297,23 @@ button:focus
     color: var(--paragraph-font-color);
 }
 
+/* section-no-5: "Nasi klienci" */
+.section-no-5-syle {
+    outline: blue dotted 3px;
+}
+
+.section-no-5-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    /* line-height: 42px; */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--headers-font-color);
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
 /* ---------------------------------------------- */
 /* portfolio-begin */
 /* portfolio-section-no-1 */
@@ -321,6 +346,23 @@ button:focus
 .portfolio-section-no-1 button:focus {
     background-color: #2196F3;
     color: #ffffff;
+}
+
+/* portfolio-section-no-2 */
+/* portfolio-cards */
+/* hover&focus - portfolio-cards*/
+/* .portfolio-projects ul:hover,
+.portfolio-projects ul:focus {
+    color: black;
+} */
+
+.portfolio-section-no-2-content-box .project-shadow:hover,
+.portfolio-section-no-2-content-box .project-shadow:focus {
+    cursor: pointer;
+    box-shadow:
+    0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16)
 }
 
 /* portfolio-section-no-2 */
