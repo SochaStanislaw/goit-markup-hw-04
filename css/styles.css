@@ -290,7 +290,7 @@ button:focus
     /* identical to box height */
     letter-spacing: 0.03em;
     text-align: center;
-    padding: 30px;
+    padding-top: 30px;
 }
 
 .section-no-4-img-title h3 {
@@ -302,6 +302,27 @@ button:focus
 
 .section-no-4-img-title p {
     color: var(--paragraph-font-color);
+}
+
+/* social media content */
+.social-icon {
+    /* outline: red dotted 5px; */
+    display: block;
+    fill: #AFB1B8;
+    width: 44px;
+    height: 44px;
+}
+
+.social-icon:hover {
+    fill: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 100%;
+}
+
+.social-icons-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px 18px 32px;
 }
 
 /* section-no-5: "Nasi klienci" */
@@ -430,7 +451,7 @@ button:focus
 }
 
 .footer-contact-position {
-    padding: 60px 939px 60px 15px;
+    padding: 60px 0 60px 15px;
 }
 
 /* title webstudio - footer */
@@ -469,25 +490,14 @@ address.footer-address-box {
     text-decoration: none;
     margin-top: 9px;
 }
+
+.flex-box-footer {
+    display: flex;
+}
+
+.social-icons-footer {
+    display: flex;
+    gap: 10px;
+    padding-left: 663px;
+}
 /* FOOTER-END */
-
-
-
-/* svg {
-    margin-left: 100px;
-}
-
-use:hover {
-    fill: red;
-    cursor: pointer;
-}
-
-.cricle-out-icon {
-    outline: blue solid 3px;
-    border-radius: 100%;
-} */
-
-.icon-circle {
-    margin-left: 150px;
-    outline: red solid 2px;
-}
