@@ -93,7 +93,7 @@ span.web-title-style {
     display: flex;
     justify-content: space-between;
     width: 254px;
-    margin-right: 371px;
+    /* margin-right: 371px; */
 }
 
 .menu-nav a {
@@ -120,6 +120,12 @@ span.web-title-style {
 .menu-contacts a {
     color: inherit;
     text-decoration: none;
+}
+
+.smartphone-icon {
+    width: 10px;
+    height: 16px;
+    fill: #757575;
 }
 
 /* main */
@@ -173,6 +179,7 @@ span.web-title-style {
 button:focus
 
 /* section-no-2: Lorem ipsum */
+/* icons svg */
 .section-no-2-style {
     list-style-type: none;
 }
@@ -346,6 +353,9 @@ button:focus
 .portfolio-section-no-1 button:focus {
     background-color: #2196F3;
     color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12)
 }
 
 /* portfolio-section-no-2 */
@@ -460,3 +470,24 @@ address.footer-address-box {
     margin-top: 9px;
 }
 /* FOOTER-END */
+
+
+
+/* svg {
+    margin-left: 100px;
+}
+
+use:hover {
+    fill: red;
+    cursor: pointer;
+}
+
+.cricle-out-icon {
+    outline: blue solid 3px;
+    border-radius: 100%;
+} */
+
+.icon-circle {
+    margin-left: 150px;
+    outline: red solid 2px;
+}
