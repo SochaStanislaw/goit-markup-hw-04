@@ -212,11 +212,25 @@ button:focus
     list-style-type: none;
 }
 
+.section-no-2-icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section-no-2-icon svg {
+    padding: 25px 100px;
+}
+
+.section-no-2-icon-box {
+    border: 3px red dashed;
+    width: 270px;
+}
+
 .section-no-2-paragraph-box {
     /* outline: green dotted 1px; */
     display: flex;
-    padding: 0 15px;
-    gap: 30px;
+    padding: 0px 15px 0 15px;
 }
 
 .section-no-2-paragraph-style {
@@ -240,6 +254,13 @@ button:focus
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--paragraph-font-color);
+    width: 270px;
+}
+
+.section-no-2-icon svg {
+    display: flex;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 
 /* section-no-3: "czym się zajmujemy" */
@@ -354,10 +375,6 @@ button:focus
 }
 
 /* section-no-5: "Nasi klienci" */
-.section-no-5-syle {
-    outline: blue dotted 3px;
-}
-
 .section-no-5-heading {
     font-weight: 700;
     font-size: 36px;
@@ -368,6 +385,29 @@ button:focus
     color: var(--headers-font-color);
     padding-top: 94px;
     margin-bottom: 50px;
+}
+
+.client-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+}
+
+.client-logo li {
+    list-style: none;
+}
+
+.box-logo {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+    fill: #AFB1B8;
+}
+
+.box-logo:hover {
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+    cursor: pointer;
 }
 
 /* ---------------------------------------------- */
@@ -477,11 +517,6 @@ button:focus
     text-decoration: none;
     list-style-type: none;
 }
-
-/* .footer-contact-position {
-    padding: 60px 0 60px 15px;
-    margin: 0 0 ;
-} */
 
 /* title webstudio - footer */
 .footer-title-style {
