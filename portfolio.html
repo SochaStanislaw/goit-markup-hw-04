@@ -31,20 +31,23 @@
           >
           <nav>
             <ul class="menu-nav">
-              <li><a href="">Agencja</a></li>
-              <li><a href="./portfolio.html">Portfolio</a></li>
-              <li><a href="">Kontakt</a></li>
+              <li><a class="agencja-link" href="">Agencja</a></li>
+              <li>
+                <a class="portfolio-link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="kontakt-link" href="">Kontakt</a></li>
             </ul>
           </nav>
           <ul class="menu-contacts">
-            <li>
+            <li class="email-link">
+              <svg width="16px" height="12px">
+                <use href="./images/SVG/header-icons.svg#icon-envelope"></use>
+              </svg>
               <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
-              <svg class="smartphone-icon">
-                <use
-                  href="./images/SVG/symbol-defs_min.svg#icon-smartphone"
-                ></use>
+            <li class="phone-link">
+              <svg width="10px" height="16px">
+                <use href="./images/SVG/header-icons.svg#icon-smartphone"></use>
               </svg>
               <a href="tel:+48111111111">+48 111 111 111</a>
             </li>
@@ -199,36 +202,105 @@
       </section>
     </main>
     <footer class="footer-contact-style">
-      <div class="container footer-contact-position">
-        <a class="head-foot-common-styles footer-title-style" href="index.html"
-          ><span class="web-title-style">Web</span>Studio</a
-        >
-        <address class="footer-address-box">
-          <ul>
+      <div class="flex-box-footer">
+        <div class="container footer-contact-position">
+          <a
+            class="head-foot-common-styles footer-title-style"
+            href="index.html"
+            ><span class="web-title-style">Web</span>Studio</a
+          >
+          <address class="footer-address-box">
+            <ul>
+              <li>
+                <a
+                  class="footer-contact-style city"
+                  href="https://www.google.pl/maps/place/al.+Jerozolimskie+21,+00-508+Warszawa/@52.2305319,21.013843,480m/data=!3m2!1e3!4b1!4m5!3m4!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!8m2!3d52.2305286!4d21.0160317"
+                  target="_blank"
+                  >Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-contact-style mail"
+                  href="mailto:info@example.com.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-contact-style phone-number"
+                  href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social-icons">
+          <p>dołącz do nas</p>
+          <ul class="footer-social-icons position">
             <li>
               <a
-                class="footer-contact-style city"
-                href="https://www.google.pl/maps/place/al.+Jerozolimskie+21,+00-508+Warszawa/@52.2305319,21.013843,480m/data=!3m2!1e3!4b1!4m5!3m4!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!8m2!3d52.2305286!4d21.0160317"
+                href="https://www.instagram.com/"
                 target="_blank"
-                >Warszawa, Aleje Jerozolimskie 21</a
+                class="social-icon"
               >
+                <svg width="44px" height="44px">
+                  <use
+                    href="./images/SVG/nasz zespół-social icons.svg#icon-instagram-2"
+                    width="20px"
+                    x="12px"
+                  ></use>
+                </svg>
+              </a>
             </li>
             <li>
               <a
-                class="footer-contact-style mail"
-                href="mailto:info@example.com.com"
-                >info@example.com</a
+                href="https://twitter.com/"
+                target="_blank"
+                class="social-icon"
               >
+                <svg width="44px" height="44px">
+                  <use
+                    href="./images/SVG/nasz zespół-social icons.svg#icon-twitter-1"
+                    width="20px"
+                    x="12px"
+                  ></use>
+                </svg>
+              </a>
             </li>
             <li>
               <a
-                class="footer-contact-style phone-number"
-                href="tel:+48111111111"
-                >+48 111 111 111</a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="social-icon"
               >
+                <svg width="44px" height="44px">
+                  <use
+                    href="./images/SVG/nasz zespół-social icons.svg#icon-facebook-1"
+                    width="20px"
+                    x="12px"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="social-icon"
+              >
+                <svg width="44px" height="44px">
+                  <use
+                    href="./images/SVG/nasz zespół-social icons.svg#icon-linkedin-1"
+                    width="20px"
+                    x="12px"
+                  ></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>

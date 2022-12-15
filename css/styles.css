@@ -37,12 +37,6 @@ margin: 0 auto;
     padding-bottom: 94px;
 }
 
-/* hover&focus - all lists*/
-nav a, ul a:hover,
-nav a, ul a:focus {
-    color: #2196F3;
-}
-
 /* header */
 /* header&footer common styles */
 .head-foot-common-styles {
@@ -92,14 +86,28 @@ span.web-title-style {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-
     width: 254px;
-    /* margin-right: 371px; */
+    margin-right: 345px;
 }
 
 .menu-nav a {
     color: inherit;
     text-decoration: none;
+}
+
+.agencja-link:hover,
+.agencja-link:focus {
+    color: #2196F3;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    color: #2196F3;
+}
+
+.kontakt-link:hover,
+.kontakt-link:focus {
+    color: #2196F3;
 }
 
 /* menu nawigacja kontakt */
@@ -111,16 +119,41 @@ span.web-title-style {
     /* line-height: 16px; */
     letter-spacing: 0.02em;
     color: var(--nav-contact-font-color);
+    fill: var(--nav-contact-font-color);
     cursor: pointer;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 30px;
 }
 
 .menu-contacts a {
     color: inherit;
     text-decoration: none;
+}
+
+.email-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-link:hover,
+.email-link:focus {
+    fill: #2196F3;
+    color: #2196F3;
+}
+
+.phone-link:hover,
+.phone-link:focus {
+    fill: #2196F3;
+    color: #2196F3;
 }
 
 /* main */
@@ -376,12 +409,6 @@ button:focus
 
 /* portfolio-section-no-2 */
 /* portfolio-cards */
-/* hover&focus - portfolio-cards*/
-/* .portfolio-projects ul:hover,
-.portfolio-projects ul:focus {
-    color: black;
-} */
-
 .portfolio-section-no-2-content-box .project-shadow:hover,
 .portfolio-section-no-2-content-box .project-shadow:focus {
     cursor: pointer;
@@ -431,6 +458,12 @@ button:focus
 }
 
 /* FOOTER-BEGIN */
+.flex-box-footer {
+    display: flex;
+    padding: 60px 863px 60px 215px;
+    gap: 70px;
+}
+
 .footer-contact-style {
     /* outline: yellow dashed 3px; */
     display: block;
@@ -445,9 +478,10 @@ button:focus
     list-style-type: none;
 }
 
-.footer-contact-position {
+/* .footer-contact-position {
     padding: 60px 0 60px 15px;
-}
+    margin: 0 0 ;
+} */
 
 /* title webstudio - footer */
 .footer-title-style {
@@ -459,6 +493,7 @@ button:focus
 address.footer-address-box {
     /* outline: red dashed 1px;*/
     font-style: normal;
+    /* width: 246px; */
 }
 
 .footer-contact-style ul {
@@ -469,7 +504,7 @@ address.footer-address-box {
 .city {
     /* outline: red dashed 1px; */
     color: #ffffff;
-        margin-top: 20px;
+    margin-top: 20px;
 }
 
 .mail {
@@ -486,13 +521,29 @@ address.footer-address-box {
     margin-top: 9px;
 }
 
-.flex-box-footer {
-    display: flex;
+.footer-address-box a:hover,
+.footer-address-box a:focus {
+    color: #2196F3;
 }
 
-.social-icons-footer {
+.footer-social-icons p  {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0 20px 0;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.footer-social-icons svg {
+    fill: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+}
+
+.footer-social-icons .position {
     display: flex;
     gap: 10px;
-    padding-left: 663px;
 }
 /* FOOTER-END */
