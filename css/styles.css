@@ -207,47 +207,6 @@ span.web-title-style {
 button:focus
 
 /* section-no-2: nasze zalety */
-
-.section-no-2-box-style ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px 0 15px;
-}
-
-.section-no-2-box-style svg {
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-}
-
-.section-no-2-box-style p, h3 {
-    width: 270px;
-}
-
-.section-no-2-box-style h3 {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.14;
-    /* line-height: 16px; */
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: var(--headers-font-color);
-    margin-bottom: 10px;
-}
-
-.section-no-2-box-style p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    /* line-height: 24px; */
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: var(--paragraph-font-color);
-}
-
 /* section-no-3: "czym się zajmujemy" */
 /* .section-no-3-style {
     outline: blue dotted 3px;
