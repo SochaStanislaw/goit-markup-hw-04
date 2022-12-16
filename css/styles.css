@@ -362,7 +362,8 @@ zwłaszcza pierwsze linijki
     fill: #AFB1B8;
 }
 
-.box-logo:hover {
+.box-logo:hover,
+.box-logo:focus {
     fill: #2196F3;
     border: 1px solid #2196F3;
     cursor: pointer;
