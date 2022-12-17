@@ -30,7 +30,6 @@ margin: 0 auto;
 .container {
     width: 1200px;
     margin: 0 auto;
-    /* outline: 3px red dotted; */
 }
 
 .section {
@@ -54,7 +53,6 @@ cursor: pointer;
 }
 
 .header-nav-box {
-    /* background-color: chartreuse; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +60,6 @@ cursor: pointer;
 }
 
 a.header-title-style {
-    /* background-color: darkred; */
     font-weight: 700;
     color: #000000;
     margin-right: 93px;
@@ -75,11 +72,9 @@ span.web-title-style {
 
 /* menu navigation */
 .menu-nav {
-    /* background-color: darkgoldenrod; */
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    /* line-height: 16px; */
     letter-spacing: 0.02em;
     color: var(--nav-font-color);
     cursor: pointer;
@@ -112,11 +107,9 @@ span.web-title-style {
 
 /* menu nawigacja kontakt */
 .menu-contacts {
-    /* background-color: green; */
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    /* line-height: 16px; */
     letter-spacing: 0.02em;
     color: var(--nav-contact-font-color);
     fill: var(--nav-contact-font-color);
@@ -159,7 +152,6 @@ span.web-title-style {
 /* main */
 /* section-no-1: main card color */
 .section-no-1 {
-    /* outline: orange dashed 5px; */
     text-align: center;
     background-color: var(--main-card-background-color);
     background-image: 
@@ -173,7 +165,6 @@ span.web-title-style {
 }
 
 .main-card-heading {
-    /* outline: whitesmoke dashed 2px; */
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -187,14 +178,11 @@ span.web-title-style {
 }
 /* button "zamów usługę */
 .order-button {
-    /* outline: red dashed 2px; */
     width: 200px;
     height: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    /* line-height: 30px; */
-    /* identical to box height, or 188% */
     letter-spacing: 0.06em;
     background-color: #2196F3;
     color: #FFFFFF;
@@ -204,19 +192,45 @@ span.web-title-style {
     cursor: pointer;
 }
 
-button:focus
-
 /* section-no-2: nasze zalety */
-/* na samym dole ponieważ w momencie pisania kodu 
-w tym miejscu nie działał poprawnie,
-zwłaszcza pierwsze linijki 
-- proszę o pomoc */
+.section-no-2-box-style ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+}
+
+.section-no-2-box-style svg {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.section-no-2-box-style p, h3 {
+    width: 270px;
+}
+
+.section-no-2-box-style h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--headers-font-color);
+    margin-bottom: 10px;
+}
+
+.section-no-2-box-style p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-font-color);
+}
 
 /* section-no-3: "czym się zajmujemy" */
-/* .section-no-3-style {
-    outline: blue dotted 3px;
-} */
-
 .section-no-3-heading {
     font-weight: 700;
     font-size: 36px;
@@ -242,7 +256,6 @@ zwłaszcza pierwsze linijki
 }
 
 .section-no-3-imgbox {
-    /* outline: dashed orange 5px; */
     display: flex;
     justify-content: space-between;
     height: 294px;
@@ -251,7 +264,6 @@ zwłaszcza pierwsze linijki
 
 /* section-no-4: "Nasz zespół" */
 .section-no-4-style {
-    /* outline: green 6px dotted; */
     background-color: var(--ourteam-background-color);
 }
 
@@ -263,7 +275,6 @@ zwłaszcza pierwsze linijki
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    /* line-height: 42px; */
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--headers-font-color);
@@ -271,7 +282,6 @@ zwłaszcza pierwsze linijki
 }
 
 .section-no-4-content-box {
-    /* outline: dashed orange 5px; */
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -280,7 +290,6 @@ zwłaszcza pierwsze linijki
 }
 
 .section-no-4-content-box li {
-    /* outline: blue 3px dashed; */
     background: #FFFFFF;
     box-shadow:
         0px 1px 3px rgba(0, 0, 0, 0.12), 
@@ -290,11 +299,8 @@ zwłaszcza pierwsze linijki
 }
 
 .section-no-4-img-title {
-    /* outline: darkblue 3px dashed; */
     font-size: 16px;
     line-height: 1.1875;
-    /* line-height: 19px; */
-    /* identical to box height */
     letter-spacing: 0.03em;
     text-align: center;
     padding-top: 30px;
@@ -337,7 +343,6 @@ zwłaszcza pierwsze linijki
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    /* line-height: 42px; */
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--headers-font-color);
@@ -374,7 +379,6 @@ zwłaszcza pierwsze linijki
 /* portfolio-section-no-1 */
 /* filters buttons */
 .portfolio-section-no-1 ul {
-    /* outline: blue dashed 2px; */
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -385,8 +389,6 @@ zwłaszcza pierwsze linijki
 .portfolio-section-no-1 button {
     font-weight: 500;
     line-height: 1.625;
-    /* line-height: 26px; */
-    /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -423,7 +425,6 @@ zwłaszcza pierwsze linijki
 }
 
 .portfolio-section-no-2-content-box {
-    /* outline: blue dashed 6px; */
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -431,7 +432,6 @@ zwłaszcza pierwsze linijki
 }
 
 .portfolio-section-no-2-img-title {
-    /* outline: red 1px solid; */
     padding: 24px 20px 20px 20px;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
@@ -442,16 +442,12 @@ zwłaszcza pierwsze linijki
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    /* line-height: 36px; */
-    /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     color: var(--headers-font-color);
 }
 
 .portfolio-section-no-2-img-title p {
     line-height: 1.875;
-    /* line-height: 30px; */
-    /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: var(--paragraph-font-color);
 }
@@ -464,14 +460,11 @@ zwłaszcza pierwsze linijki
 }
 
 .footer-contact-style {
-    /* outline: yellow dashed 3px; */
     display: block;
     background-color: var(--footer-bg-color);
     color: #ffffff60;
     font-size: 14px;
     line-height: 1.71;
-    /* line-height: 24px; */
-    /* or 171% */
     letter-spacing: 0.03em;
     text-decoration: none;
     list-style-type: none;
@@ -479,37 +472,30 @@ zwłaszcza pierwsze linijki
 
 /* title webstudio - footer */
 .footer-title-style {
-    /* outline: red dashed 1px; */
     color: #FFFFFF;
     }
 
 /* address - footer*/
 address.footer-address-box {
-    /* outline: red dashed 1px;*/
     font-style: normal;
-    /* width: 246px; */
 }
 
 .footer-contact-style ul {
-    /* outline: red dashed 1px; */
     list-style-type: none;
 }
 
 .city {
-    /* outline: red dashed 1px; */
     color: #ffffff;
     margin-top: 20px;
 }
 
 .mail {
-    /* outline: red dashed 1px; */
     color: #ffffff60;
     text-decoration: none;
     margin-top: 9px;
 }
 
 .phone-number {
-    /* outline: red dashed 1px; */
     color: #ffffff60;
     text-decoration: none;
     margin-top: 9px;
@@ -541,45 +527,3 @@ address.footer-address-box {
     gap: 10px;
 }
 /* FOOTER-END */
-
-/* section "nasze zalety"
-ponieważ tutaj kod działa poprawnie */
-.section-no-2-box-style ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px 0 15px;
-}
-
-.section-no-2-box-style svg {
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-}
-
-.section-no-2-box-style p, h3 {
-    width: 270px;
-}
-
-.section-no-2-box-style h3 {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.14;
-    /* line-height: 16px; */
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: var(--headers-font-color);
-    margin-bottom: 10px;
-}
-
-.section-no-2-box-style p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    /* line-height: 24px; */
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: var(--paragraph-font-color);
-}
