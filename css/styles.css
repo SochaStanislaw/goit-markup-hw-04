@@ -326,7 +326,8 @@ span.web-title-style {
     height: 44px;
 }
 
-.social-icon:hover {
+.social-icon:hover,
+.social-icon:focus {
     fill: #FFFFFF;
     background-color: #2196F3;
     border-radius: 100%;
@@ -365,6 +366,10 @@ span.web-title-style {
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
     fill: #AFB1B8;
+}
+
+.box-logo a {
+    fill: inherit;
 }
 
 .box-logo:hover,
