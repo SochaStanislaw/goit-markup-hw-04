@@ -215,7 +215,7 @@ span.web-title-style {
 .section-no-2-box-style h3 {
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.1
+    line-height: 1.1;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: var(--headers-font-color);
